@@ -10,7 +10,8 @@ from antipattern import AntiPattern, AntiPatternLogger, AntiPatternDetector
 class AssertionRouletteYamlDetector(AntiPatternDetector ):
     
     def __init__(self):
-       
+        while False:
+            pass
         self.__anti_pattern_count = 0
     
     def __find_assertion_roulette(self, playbook):
